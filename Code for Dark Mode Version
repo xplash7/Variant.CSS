@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+ 
+/* Goodbye.css by Mathlete2017
+ 
+Theme created by Mathlete2017. Please keep this header if you reuse this style. Goodbye AoPS!
+ 
+Licensed under the MIT License
+ 
+Permission granted to reuse and change this style */
+ 
+/* Edited by XPLASH */
+ 
+/** I used bits and pieces of CSS to make my blog. But most of it was based on Goodbye.css. Nice job Mathlete2017! Credit to SparklyFlowers for the cool entry box color and for the scrollbar, to Maverick Man for some of my header code, to nicarmt for the cool hide tags, and to happycupcake for the scrollbar patch! **/
+ 
+/** Smpl.CSS. Created by MaverickMan in December of 2020. Any use of this CSS excluding this credit is prohibited. **/
+/* Header */
+#header{
+font-family:Comfortaa !important;
+background: #000;
+width:100%!important;
+border-style:none!important;
+transition: 0.5s;
+}
+ 
+#header h1 {
+color: white;
+font-size: 100px;
+font-family: Comfortaa;
+line-height: 160px;
+transition: 0.5s;
+}
+ 
+#header {
+height: fit-content;
+border-style: none;
+}
+ 
+#header h1{
+padding-top:60px;
+background: #000;
+color: #00e1ff;
+font-family: Comfortaa;
+font-size: 60px;
+width: 100%!important;
+border-bottom:none!important;
+transition: 0.5s;
+}
+#header h1:hover{
+text-decoration:none;
+font-size:65px;
+transition: 0.5s;
+}
+#wrapper{
+width: 100%!important;
+padding: 0 0px 0px;
+border: 1px solid #00e1ff;
+}
+/** Made by AoPS User SparklyFlowers**/
+ 
+/**Inspired from City.css (by NeoMathematicalKid)**/
+ 
+/** Don't use without crediting.**/
+/** Pastel Dreams 2.0 **/
+ 
+/** Please credit SparklyFlowers and copy-paste the above if you're going to use this css.**/
+div .entrywrap, div .entrywrap-hover {
+border: 1px solid #00e1ff;
+border-radius:30px;
+background: #000;
+}
+div.commentwrap{
+border: none;
+background: #000;
+}
+/* Rounded Corners */
+div {
+  border-radius:15px;
+}
+/* Navigation Box */
+#navigation_box{
+background: #000;
+padding:10px!important;
+position:fixed;
+border-bottom:none;
+height:48px;
+z-index:9871293047102478910324708170283701987409132470918237490813240971209481098234098123401230987098423109!important;
+}
+#navigation_box a{
+padding:4px!important;
+font-family: 'Comfortaa', cursive;
+font-size:16px;
+color:#00e1ff;
+border-bottom: solid 3px var(--theme);
+border-color: #00e1ff;
+transition:.2s;
+}
+#navigation_box a:hover{
+padding-bottom:7px!important;
+}
+#left_navigation_box{
+color: #00e1ff;
+}
+#left_navigation_box a:nth-child(2){
+margin-left:-8px;
+}
+#left_navigation_box a:nth-child(3){
+margin-left:-9px;
+}
+#left_navigation_box a:nth-child(4){
+margin-left:-9px;
+}
+#right_navigation_box{
+color:#00e1ff;
+}
+#right_navigation_box a:nth-child(1){
+margin-right:-5px;
+}
+#right_navigation_box a:nth-child(2){
+margin-right:-6px;
+}
+/* Comment Box Colors */
+.row1 {
+font-family: Comfortaa;
+background: #000;
+color:#00e1ff;
+corner-radius: 5px;
+}
+ 
+.row2 {
+font-family: Comfortaa;
+background: #000;
+color: #00e1ff;
+}
+/* Entry Fonts and Color */
+#post-new-entry-p{
+text-align:center;
+padding-top:20px;
+padding:30px!important;
+margin-bottom:50px;
+margin-top:-11px!important;
+width:100%;
+top:48px;
+margin:auto;
+background-color:transparent!important;
+}
+.entry{
+border:none!important;
+margin-top:0!important;
+}
+.entry h1{
+text-align:center;
+color: #00e1ff;
+transition: 0.5s;
+}
+.entry h1 a{
+font-family: Comfortaa;
+font-size:40px;
+color: #00e1ff;
+transition: 0.5s;
+}
+.entry h1 :hover{
+text-decoration:none;
+font-size:45px;
+transition: 0.5s;
+}
+.entry h2{
+text-align:center;
+font-family: Comfortaa;
+font-size:15px;
+color: #00e1ff;
+}
+.entry h2 strong a{
+color: #00e1ff!important;
+font-family: Comfortaa;
+}
+strong{
+font-family: Comfortaa;
+}
+.entry h2 img{
+display:none;
+}
+.message{
+font-family:Comfortaa;
+font-size:17px;
+color:#00e1ff;
+}
+/* Side and Widgets */ 
+.widget-title {
+  margin-bottom: 0.5em;
+}
+ 
+.widget-title, .archive-month, .archive-month strong {
+  font: Comfortaa;
+  color: #00e1ff;
+}
+#side {
+  position: fixed;
+top:0;
+  left: -20.1em;
+  width: 20em;
+  background: #000;
+  height: 100%;
+  padding: 0 2em;
+  z-index: 1384710328740192837401983740918237401982374109823740193827120901928374102300;
+  overflow-y: scroll;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+ 
+#side:after {
+  content: "»";
+  position: fixed;
+  top: 60px;
+  left: 0;
+  color: #00e1ff;
+  background: #000;
+  display: block;
+  font-size: 2em;
+  padding: 0.35em 0.4em;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 0 1em 1em 0;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+} 
+@media all and (max-width:520px) {#side:after {height: 2em; width: 2em; padding: 0.6em 0.65em;}}
+ 
+#side:hover {
+  left: 0;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+ 
+#side:hover:after {
+  left: -1.5em;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+/* Links */
+a:link{
+color:#00e1ff;
+text-decoration:none;
+}
+a:visited{
+color:#00e1ff;
+text-decoration:none
+}
+a:hover{
+color:#00e1ff;
+}
+/* Body Font and Color */
+body{
+background-color: #000!important;
+color: #00e1ff;
+font-family: Comfortaa;
+}
+/* Hide Tags, credit to nicarmt*/
+.cmty-hide-heading{
+background-color: #c4c4c4 !important;
+color: #00e1ff !important;
+}
+.cmty-hide-heading:active, .cmty-hide-heading:hover{
+background-color: #c4c4c4 !important;
+color: 00e1ff !important; 
+}
+.cmty-hide-content, .cmty-hide-content:nth-child(2n), .cmty-hide-content:nth-child(3n), .cmty-hide-content:nth-child(4n), .cmty-hide-content:nth-child(5n), .cmty-hide-content:nth-child(6n), .cmty-hide-content:nth-child(7n){
+background-color: #c4c4c4;
+color: #00e1ff;
+}
+ .cmty-hide-content::before, .cmty-hide-content::after{
+background-color: #c4c4c4;
+color: #00e1ff;
+}
+/* No Search Widget */
+#search-widget {
+display: none;
+}
+ 
+/* Shout input box color */
+.inputbox
+{
+width: 100%;
+background-color: #000;
+color: #00e1ff;
+border-radius: 15px;
+border-color: #00e1ff!important;
+}
+/* Centering Entry Boxes */
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid white;
+  padding: 10px;
+}
+#content {
+    text-align: center!important;
+}
+#main{
+max-width:850px;
+padding:20px!important;
+width:100%!important;
+display:inline-block;
+position: absolute;
+left:50%;
+transform: translate(-50%, 0);
+height:100%!important;
+}
+/* Polls */
+.cmty-poll-display {
+font-family: Comfortaa!important;
+background-color: #000;
+color: #00e1ff;
+border-color: #00e1ff;
+border-radius: 15px;
+margin:0.5%;
+width:100%;
+}
+/* No Edits */
+.cmty-post-edit-info {
+    display: none !important;
+}
+/* Post New Entry Customization */
+#post-new-entry-p{
+text-align:center;
+padding-top:20px;
+padding:30px!important;
+margin-bottom:50px;
+margin-top:-11px!important;
+width:100%;
+top:48px;
+margin:auto;
+background-color:transparent!important;
+}
+#post-new-entry{
+color: #00e1ff;
+background:#000;
+font-family: 'Comfortaa', cursive;
+font-size:17px;
+padding:3px;
+border-bottom:3px solid var(--theme);
+border-color: #00e1ff;
+transition:0.15s;
+}
+#post-new-entry:hover{
+padding-bottom:6px;
+}
+#post-new-entry-p img{
+display:none;
+}
+/** Made by AoPS User SparklyFlowers**/
+ 
+/**Inspired from City.css (by NeoMathematicalKid)**/
+ 
+/** Don't use without crediting.**/
+/** Pastel Dreams 2.0 **/
+ 
+/** Please credit SparklyFlowers and copy-paste the above if you're going to use this css.**/
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border:2px solid #00e1ff;
+  border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00e1ff; 
+}
+::-webkit-scrollbar-thumb:active {
+  background: #00e1ff;
+}
+/* Tags */
+.cmty-item-tag {
+background-color: #000!important;
+color:  #00e1ff!important;
+border: 1px solid #00e1ff;
+font-family: Comfortaa;
+transition: .3s;
+}
+/*Shouts scrollbar patch by happycupcake.*/
+.blog-shout-wrapper > .aops-scroll-outer > .aops-scroll-inner{
+  scrollbar-width: none;
+}
+.blog-shout-wrapper > .aops-scroll-outer > .aops-scroll-inner::-webkit-scrollbar {
+  width: 0px; /*Yay for nonstandard behavior /s.*/
+}
