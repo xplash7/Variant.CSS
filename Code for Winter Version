@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+ 
+/* Goodbye.css by Mathlete2017
+ 
+Theme created by Mathlete2017. Please keep this header if you reuse this style. Goodbye AoPS!
+ 
+Licensed under the MIT License
+ 
+Permission granted to reuse and change this style */
+ 
+/* All editing is done by XPLASH */
+ 
+/** I used bits and pieces of CSS to make my blog. But most of it was based on Goodbye.css. Credit to Mathlete2017! As well as credit to SparklyFlowers for the cool entry box-shadow, to Maverick Man, for some of my header code, to nicarmt for the cool hide tags, and to happycupcake for the scrollbar patch! **/
+ 
+/** Smpl.CSS. Created by MaverickMan in December of 2020. Any use of this CSS excluding this credit is prohibited. **/
+/* Header */
+#header{
+font-family:Comfortaa !important;
+background-color: #cef2f2;
+color: #038c8c;
+width:100%!important;
+border-style:none!important;
+}
+#header h1 {
+color: #038c8c;
+font-size: 100px;
+font-family: Comfortaa;
+font-size: 60px;
+line-height: 160px;
+transition: .75s;
+}
+ 
+#header h1:hover {
+background: #038c8c;
+color: #cef2f2;
+text-decoration: none;
+font-size: 65px;
+}
+#header h1{
+padding-top:60px;
+background-color:#cef2f2;
+color: #038c8c;
+font-family: Comfortaa;
+font-size: 60px;
+width: 100%!important;
+border-bottom:none!important;
+}
+#wrapper{
+width: 100%!important;
+padding: 0 0px 0px;
+border: 1px solid #cef2f2;
+}
+/** Made by AoPS User SparklyFlowers**/
+ 
+/**Inspired from City.css (by NeoMathematicalKid)**/
+ 
+/** Don't use without crediting.**/
+/** Pastel Dreams 2.0 **/
+ 
+/** Please credit SparklyFlowers and copy-paste the above if you're going to use this css.**/
+ 
+/** Thanks for box shadow SparklyFlowers! **/
+div .entrywrap, div .entrywrap-hover {
+border: none;
+border-radius:30px;
+box-shadow:6px 6px #037f8c;
+background-color: #cef2f2;
+}
+div.commentwrap{
+border: none;
+background-color: #cef2f2;
+}
+/* Rounded Corners */
+div {
+  border-radius:15px;
+}
+/* Navigation Box */
+#navigation_box{
+background-color:#cef2f2;
+padding:10px!important;
+position:fixed;
+border-bottom:none;
+height:48px;
+z-index:9871293047102478910324708170283701987409132470918237490813240971209481098234098123401230987098423109!important;
+}
+#navigation_box a{
+padding:4px!important;
+font-family: Comfortaa ;
+font-size:16px;
+color:#038c8c;
+border-top: 2px solid #038c8c;
+border-left: 2px solid #038c8c;
+border-right: 2px solid #038c8c;
+border-bottom: 2px solid #038c8c;
+border-color: #038c8c;
+border-radius: 10px;
+transition:.3s;
+}
+#navigation_box a:hover{
+background: #038c8c;
+color: #cef2f2;
+border-radius: 10px;
+}
+#left_navigation_box{
+color: #038c8c;
+}
+#left_navigation_box a:nth-child(2){
+margin-left:-3px;
+}
+#left_navigation_box a:nth-child(3){
+margin-left:-3px;
+}
+#left_navigation_box a:nth-child(4){
+margin-left:-3px;
+}
+#right_navigation_box{
+color:#038c8c;
+}
+#right_navigation_box a:nth-child(1){
+margin-right:-3px;
+}
+#right_navigation_box a:nth-child(2){
+margin-right:-3px;
+}
+/* Comment Box Colors */
+.row1 {
+font-family: Comfortaa;
+background-color: #cef2f2;
+color:#038c8c;
+border-radius: 7px;
+}
+ 
+.row2 {
+font-family: Comfortaa;
+background-color:#038c8c;
+color: #cef2f2;
+border-radius: 7px;
+}
+/* Entry Fonts and Color */
+#post-new-entry-p{
+text-align:center;
+padding-top:20px;
+padding:30px!important;
+margin-bottom:50px;
+margin-top:-11px!important;
+width:100%;
+top:48px;
+margin:auto;
+background-color:transparent!important;
+}
+.entry{
+border:none!important;
+margin-top:0!important;
+}
+.entry h1{
+text-align:center;
+color: #038c8c;
+}
+.entry h1 a{
+font-family: Comfortaa;
+font-size:40px;
+color: #038c8c;
+transition: 0.5s;
+}
+.entry h1 a:hover{
+font-size: 45px;
+}
+.entry h2{
+text-align:center;
+font-family: Comfortaa;
+font-size:15px;
+color: #037f8c;
+}
+.entry h2 strong a{
+color: #037f8c!important;
+font-family: Comfortaa;
+}
+strong{
+font-family: Comfortaa;
+}
+.entry h2 img{
+display:none;
+}
+.message{
+font-family:Comfortaa;
+font-size:17px;
+color:#038c8c;
+}
+/* Side and Widgets */ 
+.widget-title {
+  margin-bottom: 0.5em;
+}
+ 
+.widget-title, .archive-month, .archive-month strong {
+  font: Comfortaa;
+  color: #037f8c;
+}
+#side {
+  position: fixed;
+top:0;
+  left: -20.1em;
+  width: 20em;
+  background: #fff;
+  height: 100%;
+  padding: 0 2em;
+  z-index: 1384710328740192837401983740918237401982374109823740193827120901928374102300;
+  overflow-y: scroll;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+ 
+#side:after {
+  content: "»";
+  position: fixed;
+  top: 60px;
+  left: 0;
+  color: #037f8c;
+  background: #cef2f2;
+  border: 2px solid #037f8c;
+  border-left: 1px solid #cef2f2;
+  display: block;
+  font-size: 2em;
+  padding: 0.35em 0.4em;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 0 1em 1em 0;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+} 
+@media all and (max-width:520px) {#side:after {height: 2em; width: 2em; padding: 0.6em 0.65em;}}
+ 
+#side:hover {
+  left: 0;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+ 
+#side:hover:after {
+  left: -1.5em;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+/* Links */
+a:link{
+color:#012e40;
+text-decoration:none;
+}
+a:visited{
+color:#012e40;
+text-decoration:none
+}
+a:hover{
+color:#012e40;
+}
+/* Body Font and Color */
+body{
+background-color: #fff!important;
+color:#038c8c;
+font-family: Comfortaa;
+}
+/* Hide Tags, credit to nicarmt*/
+.cmty-hide-heading{
+background-color: #fff !important;
+color: #038c8c !important;
+}
+.cmty-hide-heading:active, .cmty-hide-heading:hover{
+background-color: #fff !important;
+color: #038c8c !important; 
+}
+.cmty-hide-content, .cmty-hide-content:nth-child(2n), .cmty-hide-content:nth-child(3n), .cmty-hide-content:nth-child(4n), .cmty-hide-content:nth-child(5n), .cmty-hide-content:nth-child(6n), .cmty-hide-content:nth-child(7n){
+background-color: #fff;
+color: #038c8c;
+}
+ .cmty-hide-content::before, .cmty-hide-content::after{
+background-color: #fff;
+color: #038c8c;
+}
+/* No Search Widget */
+#search-widget {
+display: none;
+}
+ 
+/* Shout input box color and font*/
+.inputbox
+{
+width: 80%;
+background-color: #cef2f2;
+color: #038c8c!important;
+border-radius: 15px;
+box-shadow: 0px 0px 7px #038c8c;
+transform: scale(0.95);
+border-color: #037f8c!important;
+}
+/* Centering Entry Boxes */
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid white;
+  padding: 10px;
+}
+#content {
+    text-align: center!important;
+}
+#main{
+max-width:850px;
+padding:20px!important;
+width:100%!important;
+display:inline-block;
+position: absolute;
+left:50%;
+transform: translate(-50%, 0);
+height:100%!important;
+}
+/* Polls */
+.cmty-poll-display {
+font-family: Comfortaa!important;
+background-color: #fff;
+color: #038c8c;
+border-color: #038c8c;
+border-radius: 15px;
+margin:0.5%;
+width:100%;
+}
+.btn, .btn:hover{
+background: #038c8c;
+font-family: Comfortaa;
+}
+.cmty-poll-show-results .cmty-poll-hide-results{
+color: #038c8c;
+}
+.cmty-poll-result-bar{
+background-color: #038c8c;
+}
+/* No Edits */
+.cmty-post-edit-info {
+    display: none !important;
+}
+/* Post New Entry Customization */
+#post-new-entry-p{
+text-align:center;
+padding-top:20px;
+padding:30px!important;
+margin-bottom:50px;
+margin-top:-11px!important;
+width:100%;
+top:48px;
+margin:auto;
+background-color:transparent!important;
+}
+#post-new-entry{
+color:#037f8c;
+font-family: 'Comfortaa', cursive;
+font-size:18px;
+padding:3px;
+border-top: 2px solid #037f8c;
+border-left: 2px solid #037f8c;
+border-right: 2px solid #037f8c;
+border-bottom: 2px solid #037f8c;
+border-radius: 10px;
+border-color: #037f8c;
+transition: 0.2s;
+}
+#post-new-entry:hover{
+background: #037f8c;
+color: #cef2f2;
+border-radius: 10px;
+}
+#post-new-entry-p img{
+display:none;
+}
+/*Shouts scrollbar patch by happycupcake.*/
+.blog-shout-wrapper > .aops-scroll-outer > .aops-scroll-inner{
+  scrollbar-width: none;
+}
+.blog-shout-wrapper > .aops-scroll-outer > .aops-scroll-inner::-webkit-scrollbar {
+  width: 0px; /*Yay for nonstandard behavior /s.*/
+}
+/* Itembox Customization */
+.blog-tags-wrapper {
+border: 2px solid #038c8c;
+border-radius: 15px;
+}
+.blog-shout-wrapper {
+border: 2px solid #037f8c;
+border-radius: 15px;
+}
+/* Tags */
+.cmty-item-tag {
+background-color: #037f8c!important;
+color: #cef2f2!important;
+font-family: Comfortaa;
+transition: .3s;
+}
+/* Feedtab */
+.feed-tab {
+color: #037f8c;
+background-color: #cef2f2!important;
+}
+.feed-subfeed-new-topic{
+color: #ff8585;
+}
+/* Post Comment Buttons */
+div.modactions ul li a, div.actions ul li a {
+text-decoration: none;
+font-weight: 7px;
+padding: 2px;
+border-top: 1px solid #037f8c;
+border-left: 1px solid #037f8c;
+border-right: 1px solid #037f8c;
+border-bottom: 1px solid #037f8c;
+border-radius: 10px;
+transition: 0.4s;
+}
+div.modactions ul li a, div.actions ul li a:hover {
+background: #037f8c;
+color: #cef2f2;
+border-radius: 10px;
+}
