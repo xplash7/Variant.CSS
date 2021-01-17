@@ -250,7 +250,7 @@ top:0;
 /* Links */
 a:link{
 color: rgba(249,242,149,1);
-text-decoration:none;
+text-decoration:none!important;
 }
 a:visited{
 color: #dfdfdf;
